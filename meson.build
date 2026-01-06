@@ -6,7 +6,7 @@ project(
     'c_std=c99',
     'warning_level=2',
     'b_lto=true',
-    'b_ndebug=false'
+    'b_ndebug=true'
   ],
   meson_version: '>=1.1.0'
 )
