@@ -5,8 +5,9 @@ source_filename = wolfssl-v5.8.4-stable.tar.gz
 source_hash = 2b702b7a66b0067bfd284408827b1e59288b357b0dd758d0089c062395f2a522
 patch_filename = wolfssl-5.8.4-patch.zip
 patch_url = https://github.com/Teselka/wolfssl-meson/releases/download/5.8.4/wolfssl-5.8.4-patch.zip
-patch_hash = 5cdeb3ddf02fbc390447bce215e45c0f374be08bde13646146ccb853d1f96059
+patch_hash = b1f443136a7448eae796938c725aabe2f2ccce4e1cf5e936f4346c2a22de2e88
 wrapdb_version = 5.8.4
 
 [provide]
 wolfssl = wolfssl_dep
+
