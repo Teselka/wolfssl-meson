@@ -1,2 +1,6 @@
 Meson support for the wolfssl https://github.com/wolfSSL/wolfssl
 Still in progress.
+
+To install, drop `wolfssl.wrap` into the subprojects directory.
+
+curl -o wolfssl.warp https://raw.githubusercontent.com/Teselka/wolfssl-meson/refs/tags/5.8.4/meson.build
