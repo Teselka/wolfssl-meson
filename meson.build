@@ -11,8 +11,6 @@ project(
   meson_version: '>=1.1.0'
 )
 
-fs = import('fs')
-
 cc = meson.get_compiler('c')
 c_args = []
 c_defs = []
@@ -1255,7 +1253,6 @@ endif
 inc = include_directories(
     'wolfssl/',
     '.',
-    fs.relative_to(fs.parent(cfg_file.full_path()), meson.current_source_dir())
 )
 
 if target_machine.kernel() == 'nt'
