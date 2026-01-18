@@ -1296,7 +1296,8 @@ endif
 wolfssl_dep = declare_dependency(
     link_with: wolfssl_lib,
     include_directories: inc,
-    dependencies: deps
+    dependencies: deps,
+    compile_args: c_defs,
 )
 
 crypt_test_c_args = c_args + [ '-DWOLFSSL_NO_OPTIONS_H' ]
